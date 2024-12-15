@@ -1,15 +1,31 @@
-# Alience
+## This project has been discontinued
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Stars](https://img.shields.io/github/stars/username/repo)
+Yes, it still works, you can still use this software. It just won't recieve any updates now.
 
-## Profile
-Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+> I do not have the interest or time to oversee the development of this software. I thank all the amazing people who contributed to this project and made what it is in it's final form.
+
+# Roop
+
+> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
+
+<img src="https://i.ibb.co/4RdPYwQ/Untitled.jpg"/>
 
 ## Installation
+
 Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub.
 
-```bash
+[Basic](https://github.com/s0md3v/roop/wiki/1.-Installation) - It is more likely to work on your computer, but will be quite slow
+
+[Acceleration](https://github.com/s0md3v/roop/wiki/2.-Acceleration) - Unleash the full potential of your CPU and GPU
+
+
+## Usage
+
+Start the program with arguments:
+
+```
 python run.py [options]
 
 -h, --help                                                                 show this help message and exit
@@ -32,3 +48,34 @@ python run.py [options]
 --execution-provider {cpu} [{cpu} ...]                                     available execution provider (choices: cpu, ...)
 --execution-threads EXECUTION_THREADS                                      number of execution threads
 -v, --version                                                              show program's version number and exit
+```
+
+
+### Headless
+
+Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the program in headless mode.
+
+
+## Disclaimer
+
+This software is designed to contribute positively to the AI-generated media industry, assisting artists with tasks like character animation and models for clothing.
+
+We are aware of the potential ethical issues and have implemented measures to prevent the software from being used for inappropriate content, such as nudity.
+
+Users are expected to follow local laws and use the software responsibly. If using real faces, get consent and clearly label deepfakes when sharing. The developers aren't liable for user actions.
+
+
+## Licenses
+
+Our software uses a lot of third party libraries as well pre-trained models. The users should keep in mind that these third party components have their own license and terms, therefore our license is not being applied.
+
+
+## Credits
+
+- [deepinsight](https://github.com/deepinsight) for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
+- all developers behind the libraries used in this project
+
+
+## Documentation
+
+Read the [documentation](https://github.com/s0md3v/roop/wiki) for a deep dive.
