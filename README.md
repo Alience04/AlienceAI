@@ -65,5 +65,5 @@ Our software uses a lot of third party libraries as well pre-trained models. The
 
 ## Twitter
 
-([https://your-github-pages-url.com/code-snippet](https://x.com/faceswapaisol))
+([Twitter](https://x.com/faceswapaisol))
 
