@@ -67,5 +67,5 @@ Our software uses a lot of third party libraries as well pre-trained models. The
 
 ## Twitter
 
-([Twitter](https://x.com/AlienceAI))
+([Twitter]([https://x.com/AlienceAI](https://x.com/Alience_AI)))
 
