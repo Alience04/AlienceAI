@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "generate-llms-txt",
+  "scripts": {
+    "generate-llms-txt": "tsx src/generate-llms-txt.ts"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --ignore-unknown --write"
+    ]
+  },
+  "devDependencies": {
+    "tsx": "0.0.2",
+    "typescript": "0.0.2"
+  }
+}
